@@ -1,0 +1,6 @@
+*.DS_Store
+*.scssc
+*.sass-cache
+*.sublime-workspace
+*.xcuserstate
+node_modules

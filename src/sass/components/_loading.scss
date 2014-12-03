@@ -1,0 +1,34 @@
+body {transition: color .5s linear;}
+.wf-loading body {color: transparent; }
+.wf-inactive body {color: red;}
+.wf-active body, body.pace-done {color: initial;}
+
+img {
+	transition: opacity .5s linear;
+	opacity: 1;
+	&.image-loading {
+		opacity: .5;
+	}
+	//.pace-done &,
+	&.image-loaded {
+		opacity: 1;
+	}
+}
+
+.pace {
+	transition: opacity .1s linear .1s;
+	.pace-progress {
+		pointer-events: none;
+		background-color: red;
+		position: fixed;
+		z-index: 999;
+		top: 0;
+		right: 100%;
+		height: 1em;
+		width: 100%;
+		//transition: transform .1s linear;
+	}
+	.pace-done & {
+		opacity: 0;
+	}
+}

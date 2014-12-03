@@ -1,0 +1,16 @@
+//Loading
+@import 'components/loading';
+
+//Modules
+@import 'modules/reset';
+
+//Declarations
+@import 'declarations/variables','declarations/functions';
+
+//Main
+@import 'main';
+
+//Components
+@import 'components/typography';
+@import 'components/header';
+@import 'components/footer';

@@ -1,0 +1,25 @@
+//Functions
+
+@function black($opacity) {
+	@return rgba(0,0,0,$opacity)
+}
+
+@function white($opacity) {
+	@return rgba(255,255,255,$opacity)
+}
+
+//Mixins
+
+@mixin no-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+@mixin animate-changes {
+	@include transition(all .2s linear)
+}
+
+@mixin accelerate-3d {
+	@include transform(translate3d(0, 0, 0))
+}

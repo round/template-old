@@ -1,0 +1,12 @@
+body {
+	padding: 2em;
+	img {
+    vertical-align: top;
+    width: auto;
+    background: #eee url(#{$image}/load.gif) 50% no-repeat;
+    background-size: 24px;
+	}
+	&:after {
+		content: ' + Styles Loaded';
+	}
+}
