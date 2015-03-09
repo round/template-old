@@ -13,6 +13,26 @@
 		<style>html {color: transparent}</style>
 	</head>
 	<body>
-		Document Loaded + <img src='assets/image/transparent.gif' data-src='assets/image/image.jpg'/>
+
+		<header class='header' role='banner' itemscope itemtype='http://schema.org/WPHeader'>
+			Header
+		</header><!--.header-->
+
+		<nav class='navigation' role='navigation' itemscope itemtype='http://schema.org/SiteNavigationElement'>
+			<ul class='menu'>
+				<li class='item' itemprop='name'>
+					<a href='#' role='link' itemprop='url'>Home</a>
+				</li><!--.item-->
+			</ul><!--.menu-->
+		</nav><!--.navigation-->
+
+		<main class='content' role='main' itemprop='mainContentOfPage' itemscope itemtype='http://schema.org/WebPageElement'>
+			Document Loaded + <img src='assets/image/transparent.gif' data-src='assets/image/image.jpg'/>
+		</main><!--.content-->
+
+		<footer class='footer' role='contentinfo' itemscope itemtype='http://schema.org/WPHeader'>
+			Footer
+		</footer><!--.footer-->
+
 	</body>
 </html>

@@ -75,15 +75,22 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-body {
-  padding: 2em; }
-  body img {
-    vertical-align: top;
-    width: auto;
-    background: #eeeeee url(../image/load.gif) 50% no-repeat;
-    background-size: 24px; }
-  body:after {
-    content: ' + Styles Loaded'; }
+html, body {
+  height: 100%; }
 
 body {
   font-family: Droid Sans Mono, sans-serif; }
+
+main.content img {
+  vertical-align: top;
+  width: auto;
+  background: #eee url(../image/load.gif) 50% no-repeat;
+  background-size: 24px; }
+main.content:after {
+  content: ' + Styles Loaded'; }
+
+header {
+  background: red; }
+
+footer {
+  background: blue; }

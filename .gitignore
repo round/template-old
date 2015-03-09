@@ -4,3 +4,4 @@
 *.sublime-workspace
 *.xcuserstate
 node_modules
+config.codekit
