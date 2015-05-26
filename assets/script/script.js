@@ -8,7 +8,7 @@ new loader().load(['assets/script/lib/pace.js'],
 	}
 );
 
-new loader().load(['//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'],
+new loader().load(['//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'],
 	function() {
 		console.log('jQuery Loaded');
 		new loader().load(['assets/script/main.js'],
