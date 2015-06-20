@@ -15,7 +15,6 @@ new loader().load(['//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js']
 		new loader().load(['assets/script/main.js'],
 			function() {
 				console.log('Main JS Loaded');
-				imagesFade();
 				hypher();
 			}
 		);
