@@ -90,7 +90,7 @@ main.content:after {
   content: ' + Styles Loaded'; }
 
 .header {
-  background: red; }
+  background: green; }
 
 .footer {
   background: blue; }

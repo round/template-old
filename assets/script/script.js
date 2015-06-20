@@ -11,6 +11,7 @@ new loader().load(['assets/script/lib/pace.js'],
 new loader().load(['//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'],
 	function() {
 		console.log('jQuery Loaded');
+		new loader().load(['assets/script/lib/velocity.js']); //cdn.jsdelivr.net/velocity/1/velocity.min.js
 		new loader().load(['assets/script/main.js'],
 			function() {
 				console.log('Main JS Loaded');
@@ -18,7 +19,6 @@ new loader().load(['//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js']
 				hypher();
 			}
 		);
-		new loader().load(['assets/script/lib/unveil.js']);
 	}
 );
 
