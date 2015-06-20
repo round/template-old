@@ -1,11 +1,5 @@
 $(document).ready(function() {
 
-	$('img').unveil(200, function() {
-	  $(this).load(function() {
-	    console.log(this.src + ' loaded');
-	  });
-	});
-
 });
 
 function hypher() {
