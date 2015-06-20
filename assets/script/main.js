@@ -10,11 +10,3 @@ function hypher() {
 		}
 	);
 }
-
-function imagesFade() {
-	$('img').addClass('image-loading');
-	$('img').load(function() {
-		$(this).removeClass('image-loading');
-		$(this).addClass('image-loaded');
-	});
-}
