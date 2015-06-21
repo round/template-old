@@ -17,9 +17,9 @@
 }
 
 @mixin animate-changes {
-	@include transition(all .2s linear)
+	transition: (all .2s linear);
 }
 
 @mixin accelerate-3d {
-	@include transform(translate3d(0, 0, 0))
+	transform: translate3d(0, 0, 0);
 }
