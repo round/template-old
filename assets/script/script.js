@@ -1,4 +1,4 @@
-var loader=function(){};loader.prototype={load:function(e,t){this.loadCount=0;this.totalRequired=e.length;this.callback=t;for(var n=0;n<e.length;n++){this.writeScript(e[n])}},loaded:function(e){this.loadCount++;if(this.loadCount==this.totalRequired&&typeof this.callback=="function")this.callback.call()},writeScript:function(e){var t=this;var n=document.createElement("script");n.async=true;n.src=e;n.addEventListener("load",function(e){t.loaded(e)},false);var r=document.getElementsByTagName("head")[0];r.appendChild(n)}}
+var loader=function(){};loader.prototype={load:function(e,t){this.loadCount=0;this.totalRequired=e.length;this.callback=t;for(var n=0;n<e.length;n++){this.writeScript(e[n])}},loaded:function(e){this.loadCount++;if(this.loadCount==this.totalRequired&&typeof this.callback=='function')this.callback.call()},writeScript:function(e){var t=this;var n=document.createElement('script');n.async=true;n.src=e;n.addEventListener('load',function(e){t.loaded(e)},false);var r=document.getElementsByTagName('head')[0];r.appendChild(n)}}
 
 new loader().load(['assets/script/lib/pace.js'],
 	function() {
